@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provador Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bem-vindo ao Provador Virtual!</h1>
+    <div class="upload">
+        <label for="uploadImage">Envie sua foto</label>
+        <input type="file" id="uploadImage">
+    </div>
+    <div class="selection">
+        <label for="productSelect">Escolha uma peça de roupa:</label>
+        <select id="productSelect">
+            <option value="camisa">Camisa</option>
+            <option value="calça">Calça</option>
+            <option value="blusa">Blusa</option>
+        </select>
+    </div>
+    <div class="output">
+        <h3>Imagem final</h3>
+        <img id="finalImage" src="" alt="Sua imagem com a roupa">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
